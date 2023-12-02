@@ -1,0 +1,19 @@
+{
+  "name": "te-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "html.test.js",
+  "scripts": {
+    "start": "node html.test.js",
+    "test": "jest",
+    "build": "echo 'Placeholder for build script'",
+    "lint": "echo 'Placeholder for lint script'",
+    "clean": "echo 'Placeholder for clean script'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
