@@ -1,29 +1,11 @@
 name: CI
-
 on: push
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Set Execution Permissions
-      run: chmod +x E:\GitHub\te-4>
-
-    - name: Print Dependencies
-      run: npm list
-
     - uses: actions/checkout@v2
-
     - name: Install modules
       run: npm install
-
-    - name: Print Environment Variables
-      run: env
-
-    - name: Run tests with npx
-      run: npx jest
-
-    - name: Print Detailed Logs
-      run: cat E:\GitHub\te-4>
-
+    - name: Run tests
+      run: npm run test
